@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import "./App.css";
 
 class App extends Component {
@@ -24,16 +23,13 @@ class App extends Component {
 
               <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <li>
-                  <button
-                    href="#"
-                    className="nav-link px-2 text-secondary link-button"
-                  >
+                  <button className="nav-link px-2 text-white link-button">
                     Home
                   </button>
                 </li>
                 <li>
                   <button className="nav-link px-2 text-white link-button">
-                    Features
+                    Friends
                   </button>
                 </li>
                 <li>
@@ -41,7 +37,7 @@ class App extends Component {
                     href="#"
                     className="nav-link px-2 text-white link-button"
                   >
-                    Pricing
+                    Jobs
                   </button>
                 </li>
                 <li>
@@ -49,7 +45,7 @@ class App extends Component {
                     href="#"
                     className="nav-link px-2 text-white link-button"
                   >
-                    FAQs
+                    Tech Companies
                   </button>
                 </li>
                 <li>
@@ -57,7 +53,15 @@ class App extends Component {
                     href="#"
                     className="nav-link px-2 text-white link-button"
                   >
-                    About
+                    Events
+                  </button>
+                </li>
+                <li>
+                  <button
+                    href="#"
+                    className="nav-link px-2 text-white link-button"
+                  >
+                    Test and Ajax Call
                   </button>
                 </li>
               </ul>
@@ -76,7 +80,7 @@ class App extends Component {
                   Login
                 </button>
                 <button type="button" className="btn btn-warning">
-                  Sign-up
+                  Register
                 </button>
               </div>
             </div>
@@ -89,14 +93,12 @@ class App extends Component {
               <div className="container-fluid py-5">
                 <h1 className="display-5 fw-bold">Hello, world!</h1>
                 <p className="col-md-8 fs-4">
-                  This is a template for a simple marketing or informational
-                  website. It includes a large callout called a jumbotron and
-                  three supporting pieces of content. Use it as a starting point
-                  to create something more unique.
+                  The button below should make an ajax call when clicked. Look
+                  at your task details for more infomation about the specifics.
                 </p>
                 <p>
                   <button className="btn btn-primary btn-lg">
-                    Learn more &raquo;
+                    Make an Ajax Call on Click
                   </button>
                 </p>
               </div>
