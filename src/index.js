@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import "./services/serviceHelper";
 import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap";
 import "toastr/build/toastr.min.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
