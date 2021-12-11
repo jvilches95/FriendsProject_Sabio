@@ -5,34 +5,45 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <header className="p-3 bg-dark text-white">
+        <nav
+          className="navbar navbar-expand-md navbar-dark bg-dark"
+          aria-label="Fourth navbar example"
+        >
           <div className="container">
-            <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-              <a
-                href="/"
-                className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
-              >
-                <img
-                  src="https://pw.sabio.la/images/Sabio.png"
-                  width="30"
-                  height="30"
-                  className="d-inline-block align-top"
-                  alt="Sabio"
-                />
-              </a>
+            <a className="navbar-brand" href="/">
+              <img
+                src="https://pw.sabio.la/images/Sabio.png"
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+                alt="Sabio"
+              />
+            </a>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarsExample04"
+              aria-controls="navbarsExample04"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
 
-              <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li>
+            <div className="collapse navbar-collapse" id="navbarsExample04">
+              <ul className="navbar-nav me-auto mb-2 mb-md-0">
+                <li className="nav-item">
                   <button className="nav-link px-2 text-white link-button">
                     Home
                   </button>
                 </li>
-                <li>
+                <li className="nav-item">
                   <button className="nav-link px-2 text-white link-button">
                     Friends
                   </button>
                 </li>
-                <li>
+                <li className="nav-item">
                   <button
                     href="#"
                     className="nav-link px-2 text-white link-button"
@@ -40,7 +51,7 @@ class App extends Component {
                     Jobs
                   </button>
                 </li>
-                <li>
+                <li className="nav-item">
                   <button
                     href="#"
                     className="nav-link px-2 text-white link-button"
@@ -48,7 +59,7 @@ class App extends Component {
                     Tech Companies
                   </button>
                 </li>
-                <li>
+                <li className="nav-item">
                   <button
                     href="#"
                     className="nav-link px-2 text-white link-button"
@@ -56,7 +67,7 @@ class App extends Component {
                     Events
                   </button>
                 </li>
-                <li>
+                <li className="nav-item">
                   <button
                     href="#"
                     className="nav-link px-2 text-white link-button"
@@ -65,17 +76,13 @@ class App extends Component {
                   </button>
                 </li>
               </ul>
-
-              <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                <input
-                  type="search"
-                  className="form-control form-control-dark"
-                  placeholder="Search..."
-                  aria-label="Search"
-                />
-              </form>
-
               <div className="text-end">
+                <a
+                  href="/"
+                  className="align-items-center mb-2 me-2 mb-lg-0 text-white text-decoration-none"
+                >
+                  Unknow User
+                </a>
                 <button type="button" className="btn btn-outline-light me-2">
                   Login
                 </button>
@@ -85,7 +92,7 @@ class App extends Component {
               </div>
             </div>
           </div>
-        </header>
+        </nav>
 
         <main role="main">
           <div className="container">
