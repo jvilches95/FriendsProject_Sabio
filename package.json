@@ -35,6 +35,9 @@
       "plugin:react-hooks/recommended"
     ],
     "rules": {
+      "react-hooks/exhaustive-deps": [
+        0
+      ],
       "no-alert": [
         2
       ],
