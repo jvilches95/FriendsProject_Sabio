@@ -1,3 +1,7 @@
+### Extensions
+
+Recommended Extensions are actually required.
+
 ### Commands to Get Started Examples
 
 These are the command example that you would need to run out of the terminal to get your react application up and running.
@@ -27,7 +31,7 @@ npm install sabio -g
 or
 
 ```bash
-npm install sabio -g
+yarn run sabio
 ```
 
 ##### Back Up Your Work
