@@ -1,3 +1,9 @@
+# The Goals of This Task
+
+> This material was covered in the videos you have been pointed to and within the wiki
+
+You will set up a skeleton of page/application where you will be building an application and developing your skills as a developer
+
 ### Extensions
 
 Recommended Extensions are actually required.
@@ -56,12 +62,6 @@ sabio -sb
 
 This command will save a copy of your code on our GitHub account so you can share or backup you code. You can/should do this every day.
 
-## Make React Components
-
-Some important points to remember as you get started
-
-- Be sure to install all VS Code "Recommended Extensions" as they are required
-
 ### Already Installed Into This Application
 
 The following modules are already installed
@@ -108,51 +108,7 @@ A great example is when a user clicks a "Delete" button. Instead of just moving 
 
 This tool provide for you a ready to use component to draw a pagination tool to use to navigation from page to page, go "next" and "previous". **_Read more_ below.**
 
----
-
-# The Goals of This Task
-
-The goal of this exercise is to make break up the the web page see when you run via `yarn start` into different React Components.
-
-Use the `/public/Step1.png` file located in the public folder and the videos as guidance for the components you should create.
-
-Your app should contain at least these components:
-
-- Footer
-- SiteNav
-- Jumbo
-- Content
-
-> This material was covered in the videos you have been pointed to, within this wiki
-
-After you are done breaking up the page into components then do the following tasks below.
-
-## Implement a Click Handler
-
-- Add a button to the Content Component
-- Add a click handler that will console.log a message
-
-## Implement React Router
-
-- Implement Routing to render the components
-  - The package `react-router-dom` is already included in the packages.json file so you do not have to install
-  - [Wiki Page](https://github.com/sabiocode/wiki/blob/master/javascript/React/React-Router/README.md)
-
-## Implement an Ajax Call
-
-- Make a hard coded ajax call to the login endpoint (user example below) inside your click handler function so that when you clikc, you make the ajax/axios call
-
-  - Search this wiki ["Axios Template"](https://github.com/sabiocode/wiki/blob/master/javascript/Axios)
-
-```javascript
-var payload = { email: "user@google.com", password: "password" };
-```
-
-## Implement an Ajax Call on ComponentDidMount
-
-- Make the same ajax call to the login endpoint as the section above but make the call on when the component mounts. (Use componentDidMount)
-
-# Using rc-pagintation
+##### Using rc-pagintation
 
 Once you are ready to do pagination in React you should use the library installed already called rc-pagination.
 
