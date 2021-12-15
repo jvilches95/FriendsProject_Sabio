@@ -166,6 +166,7 @@ To import the css file add to the top of the component:
 
 ```javascript
 import "rc-pagination/assets/index.css";
+import locale from "rc-pagination/lib/locale/en_US";
 ```
 
 Here is stubbed out snippet where you still have to proivde much of the logic. Be sure to look at the documention so that you can determine what other properties you need to use.
@@ -189,6 +190,7 @@ export default class App extends React.Component {
         onChange={this.onChange}
         current={this.state.current}
         total={25}
+        locale={locale}
       />
     );
   }
