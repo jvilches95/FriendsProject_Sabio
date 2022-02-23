@@ -4,7 +4,10 @@
     "node_modules": true,
     "np.sh": true,
     ".gitignore": true,
-    "template.html": true
+    "template.html": true,
+    ".github": true,
+    ".vs": true,
+    ".vscode": true
   },
   "editor.formatOnSave": true,
   "workbench.colorCustomizations": {
